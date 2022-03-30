@@ -5,6 +5,13 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #4ea8de;
 }
 
 h1 {
@@ -37,9 +44,6 @@ li {
   font-size: 20px;
 }
 
-/* footer p {
-  font-size: 16px;
-} */
 #copyright {
   font-size: 16px;
 }
@@ -56,4 +60,28 @@ li {
 
 .related-posts {
   list-style: none;
+}
+
+.main-header {
+  background-color: #d1d1d1;
+}
+
+aside {
+  background-color: #d1d1d1;
+  border-top: 3px solid #4ea8de;
+  border-bottom: 3px solid #4ea8de;
+}
+
+/* Styling Links*/
+a:link {
+  color: #4ea8de;
+  text-decoration: none;
+}
+a:visited {
+  color: #4ea8de;
+}
+
+a:hover {
+  color: #a12000;
+  text-decoration: underline #a12000;
 }
