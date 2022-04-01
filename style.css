@@ -165,3 +165,15 @@ nav a:link {
 nav a:link:last-child {
   margin-right: 0;
 }
+
+/* Floats */
+
+.author-img {
+  float: left;
+}
+
+.author {
+  padding-top: 20px;
+  float: left;
+  margin-left: 20px;
+}
